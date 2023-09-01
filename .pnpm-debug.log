@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+    "err": {
+      "name": "pnpm",
+      "message": "No package.json (or package.yaml, or package.json5) was found in \"/Users/duanyupeng/.config/nvim\".",
+      "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+      "stack": "pnpm: No package.json (or package.yaml, or package.json5) was found in \"/Users/duanyupeng/.config/nvim\".\n    at readProjectManifest (/usr/local/Cellar/pnpm/7.1.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:19656:13)\n    at async readProjectManifestOnly (/usr/local/Cellar/pnpm/7.1.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:19660:28)\n    at async /usr/local/Cellar/pnpm/7.1.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:169623:26\n    at async Promise.all (index 0)\n    at async default_1 (/usr/local/Cellar/pnpm/7.1.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:169614:20)\n    at async /usr/local/Cellar/pnpm/7.1.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:176441:21\n    at async run (/usr/local/Cellar/pnpm/7.1.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:176415:34)\n    at async runPnpm (/usr/local/Cellar/pnpm/7.1.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:176633:5)\n    at async /usr/local/Cellar/pnpm/7.1.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:176625:7"
+    }
+  }
+}
